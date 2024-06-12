@@ -1,0 +1,122 @@
+body{
+    background-color: azure;
+}
+footer{
+    background-color: azure;
+}
+.main{
+    position: relative;
+    overflow : auto;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 10px;
+    margin-top: 5vh;
+    width: 90vw;
+    height: 60vh;
+    min-width: 1000px;
+}
+.main::-webkit-scrollbar{
+    display:none;
+}
+
+.bottom{
+    position: relative;
+    overflow : auto;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    height: 35vh;
+    width: 90vw;
+    min-width: 1000px;
+}
+.questContain{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.question{
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 5 auto;
+    padding: auto;
+}
+.answerCanvas{
+    width: 200px;
+    height: 100%;
+    border-left: 2px solid black;
+}
+.answerCanvas.active{
+    width: 200px;
+    height: 100%;
+    border: 2px solid blue;
+}
+.questCanvas{
+    width: 200px;
+    height: 100%;
+    margin-left: 10px;
+}
+.palette{
+    height: 120px;
+    margin: 10px;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.palette::-webkit-scrollbar{
+  display:none;
+}
+.palette .canvas{
+    width: 200px;
+    height: 100px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+.colorBtn {
+    font-size: 22px;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+}
+.colorBtn.red{
+    background-color: red;
+}
+.colorBtn.orange{
+    background-color: orange;
+}
+.colorBtn.yellow{
+    background-color: yellow;
+    color: black;
+}
+.colorBtn.green{
+    background-color: green;
+}
+.colorBtn.blue{
+    background-color: blue;
+}
+.colorBtn.darkblue{
+    background-color: darkblue;
+}
+.colorBtn.purple{
+    background-color: purple;
+}
+.colorBtn.black{
+    background-color: black;
+}
+.colorBtn.white{
+    background-color: white;
+}
+  
